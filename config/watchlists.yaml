@@ -1,0 +1,103 @@
+watchlists:
+  telecom_ng:
+    name: "Nigerian Telecommunications"
+    description: "Real-time market monitoring for Nigerian telecom operators, tariffs, service outages, and commercial churn."
+    entities:
+      - name: "MTN Nigeria"
+        aliases: ["MTN", "MTN NG", "MTNNG", "MTNNigeria", "yellonetwork", "yello"]
+        category: "COMPETITOR"
+      - name: "Airtel Nigeria"
+        aliases: ["Airtel", "AirtelNG", "Airtel Nigeria", "airtelnigeria"]
+        category: "COMPETITOR"
+      - name: "Glo Nigeria"
+        aliases: ["Glo", "Globacom", "GloWorld", "gloworld", "Glo NG"]
+        category: "COMPETITOR"
+      - name: "9mobile"
+        aliases: ["9mobile", "Etisalat", "9mobileNG", "0809ja"]
+        category: "COMPETITOR"
+      - name: "Naira"
+        aliases: ["Naira", "NGN", "₦", "naira"]
+        category: "CURRENCY"
+    topics:
+      - "data price"
+      - "network issue"
+      - "customer service"
+      - "airtel vs mtn"
+      - "recharge plans"
+      - "tariffs"
+      - "outage"
+      - "slow internet"
+      - "data bundle"
+      - "5g coverage"
+
+  ai_market:
+    name: "Generative AI & LLM Market"
+    description: "Enterprise competitive intelligence for foundation model providers."
+    entities:
+      - name: "OpenAI"
+        aliases: ["OpenAI", "ChatGPT", "GPT-4", "GPT-5", "Sora"]
+        category: "COMPETITOR"
+      - name: "Google"
+        aliases: ["Google", "Gemini", "DeepMind", "Gemma"]
+        category: "COMPETITOR"
+      - name: "Anthropic"
+        aliases: ["Anthropic", "Claude", "Claude 3"]
+        category: "COMPETITOR"
+      - name: "Meta"
+        aliases: ["Meta", "Llama", "Llama 3", "Zuckerberg"]
+        category: "COMPETITOR"
+    topics:
+      - "reasoning"
+      - "api pricing"
+      - "context window"
+      - "hallucination"
+      - "benchmark"
+
+  banking_ng:
+    name: "Commercial Banking NG"
+    description: "Commercial banking outage and transaction tracking."
+    entities:
+      - name: "GTBank"
+        aliases: ["GTBank", "GTCO", "Guaranty Trust"]
+        category: "COMPETITOR"
+      - name: "Access Bank"
+        aliases: ["Access Bank", "AccessBank"]
+        category: "COMPETITOR"
+      - name: "Zenith Bank"
+        aliases: ["Zenith Bank", "ZenithBank"]
+        category: "COMPETITOR"
+      - name: "UBA"
+        aliases: ["UBA", "United Bank for Africa"]
+        category: "COMPETITOR"
+    topics:
+      - "transfer failed"
+      - "app down"
+      - "unauthorized debit"
+      - "atm dispensing error"
+
+  tech_platform:
+    name: "Global Tech & Social Platforms"
+    description: "Real-time stream monitoring for major operating systems, hardware, and social networks."
+    entities:
+      - name: "Bluesky"
+        aliases: ["Bluesky", "bsky", "atproto", "jetstream"]
+        category: "COMPETITOR"
+      - name: "Apple"
+        aliases: ["Apple", "iPhone", "MacBook", "iOS", "iPad"]
+        category: "COMPETITOR"
+      - name: "Microsoft"
+        aliases: ["Microsoft", "Windows", "Azure", "Xbox"]
+        category: "COMPETITOR"
+      - name: "Linux"
+        aliases: ["Linux", "Ubuntu", "Debian", "Arch"]
+        category: "PRODUCT"
+      - name: "Nvidia"
+        aliases: ["Nvidia", "GPU", "GeForce", "CUDA"]
+        category: "COMPETITOR"
+    topics:
+      - "update"
+      - "release"
+      - "bug"
+      - "crash"
+      - "feature"
+      - "speed"

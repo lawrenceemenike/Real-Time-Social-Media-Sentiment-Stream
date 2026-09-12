@@ -1,0 +1,17 @@
+global:
+  scrape_interval: 5s
+  evaluation_interval: 5s
+
+scrape_configs:
+  - job_name: "comintel-api"
+    static_configs:
+      - targets: ["api:8000"]
+        labels:
+          environment: "production"
+          service: "fastapi-gateway"
+
+  - job_name: "comintel-streaming"
+    static_configs:
+      - targets: ["streaming-engine:8001"]
+        labels:
+          service: "stateful-windows"

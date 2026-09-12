@@ -1,0 +1,35 @@
+topics:
+  - name: "social.raw"
+    partitions: 3
+    replication_factor: 1
+    retention_ms: 604800000 # 7 days
+    cleanup_policy: "delete"
+    description: "Immutable raw social stream directly ingested from source adapters."
+
+  - name: "social.cleaned"
+    partitions: 3
+    replication_factor: 1
+    retention_ms: 259200000 # 3 days
+    cleanup_policy: "delete"
+    description: "Sanitized, language-filtered, and deduplicated event stream."
+
+  - name: "social.enriched"
+    partitions: 3
+    replication_factor: 1
+    retention_ms: 604800000 # 7 days
+    cleanup_policy: "delete"
+    description: "Canonical analytical event tagged with sentiment, entities, and commercial intent."
+
+  - name: "intelligence.anomalies"
+    partitions: 2
+    replication_factor: 1
+    retention_ms: 2592000000 # 30 days
+    cleanup_policy: "compact"
+    description: "Statistical Z-score and velocity threshold breach alert events."
+
+  - name: "deadletter.events"
+    partitions: 1
+    replication_factor: 1
+    retention_ms: 1209600000 # 14 days
+    cleanup_policy: "delete"
+    description: "Malformed, toxic, or unparseable event dead letter queue."

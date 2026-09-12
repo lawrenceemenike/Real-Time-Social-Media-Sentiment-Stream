@@ -1,0 +1,62 @@
+[
+  {
+    "source_event_id": "sim-001",
+    "author_id": "user_lagos_01",
+    "timestamp": "2026-05-28T10:00:00Z",
+    "text": "MTN network is stable this morning in Victoria Island, good speeds."
+  },
+  {
+    "source_event_id": "sim-002",
+    "author_id": "user_abuja_09",
+    "timestamp": "2026-05-28T10:05:00Z",
+    "text": "Just recharged Airtel airtime. Let's see how fast their 5G network is."
+  },
+  {
+    "source_event_id": "sim-003",
+    "author_id": "user_ph_12",
+    "timestamp": "2026-05-28T10:10:00Z",
+    "text": "Glo data prices are still relatively okay, but network speed can be frustrating."
+  },
+  {
+    "source_event_id": "sim-004",
+    "author_id": "user_ibadan_44",
+    "timestamp": "2026-05-28T10:12:00Z",
+    "text": "Wait did MTN just hike their data prices again?? 10GB for how much?!"
+  },
+  {
+    "source_event_id": "sim-005",
+    "author_id": "user_kano_22",
+    "timestamp": "2026-05-28T10:14:00Z",
+    "text": "MTN data is way too expensive now! This is ridiculous robbery."
+  },
+  {
+    "source_event_id": "sim-006",
+    "author_id": "user_lagos_88",
+    "timestamp": "2026-05-28T10:16:00Z",
+    "text": "Scam prices from MTN Nigeria. Data draining like water and tariff doubled!"
+  },
+  {
+    "source_event_id": "sim-007",
+    "author_id": "user_enugu_05",
+    "timestamp": "2026-05-28T10:18:00Z",
+    "text": "Data prices are crazy, I am moving from MTN to Airtel tomorrow."
+  },
+  {
+    "source_event_id": "sim-008",
+    "author_id": "user_benin_33",
+    "timestamp": "2026-05-28T10:20:00Z",
+    "text": "Dumping MTN for Airtel right now. Airtel data bundles make much more sense."
+  },
+  {
+    "source_event_id": "sim-009",
+    "author_id": "user_uyo_71",
+    "timestamp": "2026-05-28T10:22:00Z",
+    "text": "Network outage again on MTN! Absolutely terrible customer service."
+  },
+  {
+    "source_event_id": "sim-010",
+    "author_id": "user_lagos_99",
+    "timestamp": "2026-05-28T10:24:00Z",
+    "text": "Airtel network quality is actually impressive today. Switching was a good call."
+  }
+]
