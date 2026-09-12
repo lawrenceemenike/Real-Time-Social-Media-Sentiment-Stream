@@ -1,6 +1,6 @@
 # ComIntel: Real-Time Social Intelligence Streaming Platform
 
-ComIntel is an enterprise-grade, event-driven streaming intelligence platform designed to ingest uncontrolled public social media streams (Bluesky Jetstream WebSocket firehose & Mastodon), execute multi-task NLP and commercial intent extraction, maintain stateful sliding-window metrics, detect statistical Z-score anomalies, and deliver sub-second executive intelligence briefings to a dark-mode Next.js analytics surface.
+ComIntel is an open-source, event-driven streaming intelligence platform designed to ingest uncontrolled public social media streams (Bluesky Jetstream WebSocket firehose & Mastodon), execute multi-task NLP and commercial intent extraction, maintain stateful sliding-window metrics, detect statistical Z-score anomalies, and deliver sub-second executive intelligence briefings to a dark-mode Next.js analytics surface.
 
 ---
 
